@@ -44,10 +44,10 @@ The modeling part is a weighted average of different models, the weighted averag
 
 ### 3.2 Submission 2
 
-Submission 2 is a 3-stage training process and it is more risky. the 1 stage is similar to the submission 1, but the 2nd and 3rd stage use the N-1 stage prediction for filling missing speeds. It is potentially an overfitting result, the submission 1 is more robust.
+Submission 2 is a multi-stage training process and it is more risky. the 1 stage is similar to the submission 1, but the 2nd and 3rd stage use the N-1 stage prediction for filling missing speeds. The selected number of N is just 2 (2-stage), want to play safe.
 
-Result: Local MSE ~ 9.8938 Public Lead Board MSE ~ 9.34230
+It is potentially an overfitting result, the submission 1 is more robust.
 
-- Stage 1: https://www.kaggle.com/kingychiu/1st-stage-random-state-2020
-- Stage 2: https://www.kaggle.com/kingychiu/2nd-stage-random-state-2020
-- Stage 3: https://www.kaggle.com/kingychiu/3nd-stage-random-state-2020
+Result: Local MSE ~ 8.836 Public Lead Board MSE ~ 9.47404
+
+- https://www.kaggle.com/kingychiu/multi-stage-submission-2/output?scriptVersionId=48562261
