@@ -22,9 +22,7 @@ All works has been done on Kaggle notebook, here are the list of packages I used
 
 Snapshots of the notebooks and the submission files are also in this repository.
 
-The submission 1 notebook should be able to run on local machine directly with updated data file path.
-
-The submission 2 notebook is a multi-stage training on 3 kaggle notebooks. It might be hard to rerun.
+The submission 1, 2 notebook should be able to run on local machine directly with updated data file path.
 
 If you cannot run the notebook, please let me know I can share the Kaggle notebooks directly.
 
