@@ -46,7 +46,7 @@ The modeling part is a weighted average of different models, the weighted averag
 
 Submission 2 is a multi-stage training process and it is more risky. the 1 stage is similar to the submission 1, but the 2nd and 3rd stage use the N-1 stage prediction for filling missing speeds. The selected number of N is just 2 (2-stage), want to play safe.
 
-It is potentially an overfitting result, the submission 1 is more robust.
+It is potentially an overfitting result, the submission 1 is more robust. I have done a 10-stage one, the local MSE is 8.3983 but the Leaderboard mse became 10.xx
 
 Result: Local MSE ~ 8.836 Public Lead Board MSE ~ 9.47404
 
