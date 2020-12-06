@@ -1,5 +1,25 @@
 # MSBD5001 Kaggle Project Submission
 
+https://www.kaggle.com/c/msbd5001-fall2020/overview
+
+The dataset provides the average traffic speed per hour for a major road in Hong Kong from 2017 to 2018. There are missing speed data we need to fill in.
+
+The data missing intervals are ranged from 1 hour to 9 hour:
+
+```
+Missing intervals 2018
+0 days 01:00:00    3135
+0 days 02:00:00    1260
+0 days 03:00:00     526
+0 days 04:00:00     217
+0 days 05:00:00      75
+0 days 06:00:00      30
+0 days 07:00:00       8
+0 days 10:00:00       2
+0 days 08:00:00       2
+0 days 09:00:00       1
+```
+
 ## 1 Team
 
 - Name: Chiu King Yuen
